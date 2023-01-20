@@ -58,6 +58,10 @@ jobs:
           kustomize/hpa.yaml
           kustomize/deployment.yaml
           kustomize/service.yaml
+          deploy/webapp/common/namespace.yaml
+          deploy/webapp/common/reconciler-rbac.yaml
+          deploy/webapp/common/service-account.yaml
+          
      
    
          login-server: ${{ secrets.AZURE_REGISTRY_LOGIN_SERVER }}
