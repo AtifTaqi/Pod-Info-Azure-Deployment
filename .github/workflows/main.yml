@@ -53,7 +53,7 @@ jobs:
          
       - uses: Azure/k8s-deploy@v1
         with:
-         namespace: 'podinfo'
+         namespace: 'webapp'
          manifests: |
           kustomize/hpa.yaml
           kustomize/deployment.yaml
