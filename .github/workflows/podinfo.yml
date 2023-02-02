@@ -67,4 +67,6 @@ jobs:
          images: |
             ${{ secrets.AZURE_REGISTRY_LOGIN_SERVER }}/booksapp:${{ github.sha }}
 
+
             #test
+
