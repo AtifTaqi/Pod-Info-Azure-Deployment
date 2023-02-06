@@ -41,3 +41,5 @@ RUN chown -R app:app ./
 USER app
 
 CMD ["./podinfo"]
+
+#test
